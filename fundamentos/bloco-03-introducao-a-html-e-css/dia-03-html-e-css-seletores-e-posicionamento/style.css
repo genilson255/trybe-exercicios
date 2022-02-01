@@ -71,3 +71,50 @@ a{
     font-style: initial;
     
 }
+ol li{
+    background-color: yellow;
+}
+#impar{
+    background-color: green;
+}
+#par{
+    text-transform: uppercase;
+}
+.titulo, h1{
+    font-style: italic;
+    font-size: 40px;
+    color: red;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+li{
+    font-size: 20px;
+    font-weight:600
+}
+ul li.programa{
+    background-color: blue;
+}
+ul li.programacao{
+    background-color: pink;
+}
+/*
+ul li a:hover{
+    font-weight: 20px;
+    color: rgb(0, 255, 34);
+}
+*/
+#StackOverflow:hover{
+    color: orange;
+}
+#W3Schools:hover{
+    color: green;
+}
+#mdn:hover{
+    color: black;
+}
+#dev:hover{
+    color: yellow;
+}
+#try:hover{
+    color: green;
+}
