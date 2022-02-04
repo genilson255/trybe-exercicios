@@ -71,11 +71,22 @@ a{
     font-style: initial;
     
 }
+/*
 ol li{
     background-color: yellow;
 }
 #impar{
     background-color: green;
+}
+*/
+ol{
+    background-color: yellow;
+}
+ol li:nth-child(odd){
+    color: green;
+}
+ol li:nth-child(even){
+    color: yellow;
 }
 #par{
     text-transform: uppercase;
