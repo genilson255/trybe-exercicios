@@ -1,4 +1,4 @@
-# Trybe
+﻿# Trybe
 
 Este repositório conta todas as atividades de aprendizagem desenvolvidas por _[Genilson Monteiro da Silva](https://www.linkedin.com/in/genilson-silva-2a3388166/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
@@ -22,16 +22,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 3: Introducao - HTML & CSS
 
 - [✅] 3-1: _HTML & CSS - Estruturas de pagina_
-- [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semantico_
-- [ ] 3-5: _[Projeto - HTML & CSS]()_
+- [✅] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [✅] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [✅] 3-4: _HTML Semantico_
+- [✅] 3-5: _[Projeto - HTML & CSS]()_
 
 ##### Bloco 4: Introducao - JavaScript
 
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Logica de Programacao e Algoritmos_
+- [✅] 4-1: _JavaScript - Primeiros passos_
+- [✅] 4-2: _JavaScript - Array e loop For_
+- [✅] 4-3: _JavaScript - Logica de Programacao e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funcoes_
 - [ ] 4-5: _[Projeto - Playground Functions]()_
 
