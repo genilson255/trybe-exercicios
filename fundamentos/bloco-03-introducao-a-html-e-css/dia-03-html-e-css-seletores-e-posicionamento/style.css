@@ -1,0 +1,131 @@
+p, h1{
+    text-align: center;
+
+}
+h1, p:active{
+    background-color: darkblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*
+#cores:hover{
+    border-width: thick;
+    border-style: dotted;
+    border-color: gold;
+    border-width: 20px;
+}
+*/
+#primaria{
+    color: green;
+    font-style: italic;
+}
+#secundaria{
+    color: indigo;
+    font-style: italic;
+}
+#complemento{
+    color: limegreen;
+    font-style: italic;
+}
+#escura{
+    color: rgb(156, 156, 156);
+    font-style: italic;
+}
+#clara{
+    color: cyan;
+    font-style: italic;
+}
+.corP{
+    font-family: sans-serif;
+    font-size: 33px;
+    background-color: darkgray;
+    font-style: initial;
+    
+}
+.corS{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: rgb(14, 215, 230);
+    font-style: initial;
+    
+}
+.corC{
+    font-family: sans-serif;
+    font-size: 40px;
+    background-color: rgb(211, 247, 9);
+    font-style: inherit;
+}
+.corE{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+    background-color: rgba(14, 173, 247, 0.253);
+    font-style:unset;
+}
+.corL{
+    font-family: sans-serif;
+    font-size: 33px;
+    background-color: rgb(250, 120, 120);
+    font-style: initial;
+    
+}
+/*
+ol li{
+    background-color: yellow;
+}
+#impar{
+    background-color: green;
+}
+*/
+ol{
+    background-color: yellow;
+}
+ol li:nth-child(odd){
+    color: green;
+}
+ol li:nth-child(even){
+    color: yellow;
+}
+#par{
+    text-transform: uppercase;
+}
+.titulo, h1{
+    font-style: italic;
+    font-size: 40px;
+    color: red;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+li{
+    font-size: 20px;
+    font-weight:600
+}
+ul li.programa{
+    background-color: blue;
+}
+ul li.programacao{
+    background-color: pink;
+}
+/*
+ul li a:hover{
+    font-weight: 20px;
+    color: rgb(0, 255, 34);
+}
+*/
+#StackOverflow:hover{
+    color: orange;
+}
+#W3Schools:hover{
+    color: green;
+}
+#mdn:hover{
+    color: black;
+}
+#dev:hover{
+    color: yellow;
+}
+#try:hover{
+    color: green;
+}
