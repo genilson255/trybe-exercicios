@@ -54,5 +54,14 @@ if (a != b) {
          */
         
         
-        /* let modulo = 2; */
+  /*       let modulo = 10; 
+    if (modulo % 2 === 0) {
+        console.log("Ok, o numero é divisivel por 2");
+    }else{
+            console.log("O numero não é divisivel por 2");
+    }
+         */
+
+    const soma;
+    let total;
  
