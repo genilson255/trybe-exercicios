@@ -114,8 +114,9 @@ A torre. ...
 O peão.
  */
 
-   let xadrex = 'peao';
-  switch (xadrex) {
+/* function kingKenn(peca){
+ // let xadrez = 'rainha';
+  switch (peca) {
       case 'rei':
           console.log("O rei pode mover-se em todas as direções");
             break;
@@ -149,6 +150,58 @@ O peão.
         case 'Empate':
             console.log("Clique no botão pate para solicitar ao seu adversário o final da partida por empate. Só é possível solicitar “pate” depois de um certo número de jogadas.");       
       default:
-          console.log("Nenhuma das opções escolhidas");
+          console.log("ERRO!, Pessoa nao encontrada");
           break;
   }
+  return kingKenn;
+}
+ kingKenn('bispo'); */
+
+ 
+
+/* function convertNotas(porcentagem) {
+    
+    if (porcentagem >= 90 && porcentagem < 100) {
+        console.log("A");
+    }else if (porcentagem >= 80 && porcentagem < 90) {
+        console.log("B");
+    } else if(porcentagem >= 70 && porcentagem < 80) {
+        console.log("C");
+    }else if(porcentagem >= 60 && porcentagem < 70){
+        console.log("D");
+    }else if(porcentagem >= 50 && porcentagem < 60){
+        console.log("E");    
+    }else if(porcentagem >0 && porcentagem < 50){
+        console.log("F");
+    }else if(porcentagem < 0 || porcentagem > 100){
+        console.log("ERRO!, Nao localizado");
+    }
+    return convertNotas;
+}
+convertNotas(70); */
+/* 
+Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+Bonus: use somente um if . */
+
+/* const novo = 1;
+const velho = 5;
+const atual = 3;
+if (novo % 2 === 0 || velho % 2 === 0 || atual % 2 === 0) {
+    console.log(true);
+} else {
+    console.log(false);    
+} */
+
+/* Escreva um programa que se inicie com dois valores em duas constantes diferentes: 
+o custo de um produto e seu valor de venda. 
+A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+Atente que, sobre o custo do produto, incide um imposto de 20%.
+Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+valorCustoTotal = valorCusto + impostoSobreOCusto
+lucro = valorVenda - valorCustoTotal (lucro de um produto) */
+
+//-----------------------------//-----------------------------------//-----------------
+
+
+
