@@ -24,7 +24,7 @@ console.log(false && true); // false
 console.log(false && false); // false */
 
 //Exercicio
-const currentHour = 22;
+/* const currentHour = 22;
 let message = "";
 if(currentHour >= 22){
     message = "Não deveríamos comer nada, é hora de dormir";
@@ -38,4 +38,8 @@ if(currentHour >= 22){
 }else if(currentHour > 4 && currentHour < 11){
     message = "Hmmm, cheiro de café recém passado";
 }
-    console.log(message);
+    console.log(message); */
+
+   
+  
+   
