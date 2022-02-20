@@ -29,6 +29,12 @@ function verificarAcertos(person, sorteado) {
    }
    return numberHits;
 }
+
+//4 Numeros que o cliente apostou // person chama a function
 let numerosApostado = [22,23,1,2,7,8,4,10,3,2];
 let totalSorteado = sorteio();
-console.log(verificarAcertos(numerosApostado, totalSorteado));
+
+//5 Numeros que o cliente acertou
+console.log('Numeros da pessoa', numerosApostado);
+console.log('Numeros da Maquina ', totalSorteado);
+console.log('Total de acertos', verificarAcertos(numerosApostado, totalSorteado));
