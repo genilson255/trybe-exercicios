@@ -1,25 +1,34 @@
-//Refatorando o codigo
-// 1 Criar uma function para gerar um numero aleatório
-function generateRandomNumer() {
-    let numberRandom = Math.floor(Math.random() * 60) + 1;
-    return numberRandom;
+//Criar funcao para gerar um numero aleatorio
+function gerarNumeroAleatorio() {
+    let randomNumber = Math.floor(Math.random() * 60) + 1;
+    return randomNumber;
 }
-console.log('O numero sorteado foi:', generateRandomNumer());
-
-// 2 Gerar um jogo ( Sortear os 6 numeros )
-function gerateGame() {
-    let megaSenaJogo = [];
-    for(let i = 0; 1 < 6; i += 1){
-        /* megaSenaGame[i] = gerarUmRandomNumber(); */
-        megaSenaJogo.push(generateRandomNumer());
+    //console.log(gerarNumeroAleatorio());
+//2 - Gerar um jogo que (sorteia os 6 numeros)
+function sorteio() {
+    let numeros = [];
+    for(let n = 0; n < 6; n += 1){
+        numeros[n] = gerarNumeroAleatorio();
     }
-    return megaSenaJogo;
-}
-console.log(gerateGame());
+    return numeros;
+}    
+//console.log(sorteio());
 
-
-// 3 - Verifica o número de acerto - Compara-lo com o resultado da mega sena
-/* function checkNumberOfHits(){
-    
+// 3 Verificar o numero total de acertos - Comparar
+function verificarAcertos(person, sorteado) {
+    let numberHits = 0;
+   for(let i = 0; i < person.length; i += 1){
+        console.log('Voce acertou:', person[i]);
+        for(let m = 0; m < sorteado.length; m += 1){
+            console.log('Os numeros sorteados foram:', sorteado[m]);
+            if(person[i] === sorteado[m]){                                  
+                numberHits +=1;
+                console.log("Acertou!");
+            }
+        }
+   }
+   return numberHits;
 }
-checkNumberOfHits(); */
+let numerosApostado = [22,23,1,2,7,8,4,10,3,2];
+let totalSorteado = sorteio();
+console.log(verificarAcertos(numerosApostado, totalSorteado));
