@@ -12,6 +12,14 @@ let newDiv2 = document.createElement('div');
 newDiv2.className = 'green circle small';
 container.appendChild(newDiv2);
 
+//Criação do elemento div
 let newDiv3 = document.createElement('div');
 newDiv3.className = 'yellow circle small';
+//Adicinando o elemento
 container.appendChild(newDiv3);
+
+//Criação do elemento div
+let redondo = document.createElement('div');
+redondo.className = 'circle red small';
+//Adicinando o elemento
+container.appendChild(redondo);
