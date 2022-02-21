@@ -39,6 +39,14 @@ container.appendChild(createDivElement('circle green small')); */
 function addElement(parent, child){
     parent.appendChild(child);
 }
-addElement(container, createDivElement('circle red small'));
+//addElement(container, createDivElement('circle red small'));
 /* addElement(container, createDivElement('circle green small'));
 addElement(container, createDivElement('circle yellow small')); */
+
+// Abreviação de todo esse codigo com for of
+
+let classes = ['circle red small','circle green small','circle yellow small', 'blue circle small','circle cyan small','circle gray small'];
+for(let classe of classes){
+    let colorList = createDivElement(classe);
+    addElement(container, colorList);
+}
