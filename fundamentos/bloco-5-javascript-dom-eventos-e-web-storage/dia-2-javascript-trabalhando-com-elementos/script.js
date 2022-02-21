@@ -28,7 +28,7 @@ let container = document.getElementById('first');
 function createDivElement(classes){
     let newDiv = document.createElement('div');
     newDiv.className = classes;
-    console.log(newDiv);
+    //console.log(newDiv);
     return newDiv;
 }
 //Mandando os elementos para a o html
@@ -50,3 +50,6 @@ for(let classe of classes){
     let colorList = createDivElement(classe);
     addElement(container, colorList);
 }
+
+
+
