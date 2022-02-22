@@ -1,36 +1,15 @@
-/* const button = document.querySelector('#buttonSubmit');
-let inputNameUser = document.querySelector('#inputNameUser');
-const nameUser = document.querySelector('#nameUser');
-
-function obterValorUuario(event){
-     event.preventDefault(); 
-    console.log(inputNameUser.value);
-    nameUser.innerHTML = inputNameUser.value;
-}
-button.addEventListener('click', obterValorUuario); */
 
 
-// SELETORES
-/* const INPUT_TEXT = document.querySelector("#input-text");
-const INPUT_CHECKBOX = document.querySelector("#input-checkbox");
-const HREF_LINK = document.querySelector("#href");
+/* window.onload = function(){
+    alert('Deu certo');
+} */
+const inputText = document.querySelector("#input-text");
+const inputCheckbox = document.querySelector("#input-checkbox");
+const hrefLink = document.querySelector("#href");
 
-
-
-    document.querySelector("#href").addEventListener("click", newClick(){
-    document.getElementById("input-checkbox");
+function capturarAcap(event){
     event.preventDefault();
-}); */
-
-/* const texto = document.querySelector('#input-text');
-
-
-const caixa = document.querySelector('#input-checkbox');
-const botao = document.querySelector('#href');
- acao.addEventListener('click', findClick());
-
-function findClick(){
-    console.log(click);
-      
+    console.log(hrefLink.value);
+    hrefLink.innerHTML = hrefLink.value;
 }
- */
+inputCheckbox.addEventListener('click', capturarAcap); 
