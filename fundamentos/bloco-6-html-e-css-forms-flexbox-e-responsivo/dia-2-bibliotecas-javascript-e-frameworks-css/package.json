@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@pluralsight/ps-design-system-datepicker": "^18.0.7"
+  }
+}
