@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formComplete</title>
+</head>
+<body>
+    <h1>Formulario complete</h1>
+    <form action="" method="get">
+        <label for="inputEmail">
+            E-mail: <input type="email" name="email" id="inputEmail" placeholder="Digite seu email" required>
+        </label><br>
+        <label for="inputSenha">
+            Senha: <input type="password" name="senha" id="inputSenha" required placeholder="Digite cuidadosamente sua senha">
+        </label><br>
+        <label for="celular">
+            Telafone: <input type="tel" name="cel" id="celular" placeholder="(0xx)x.xxxx-xxxx">
+        </label><br>
+        <label for="city">Cidade onde moro:
+            <select id="city">
+                <option value="ara" class="city">Araripina</option>
+                <option value="our" class="city">Outicuti</option>
+                <option value="sal" class="city">Salgueiro</option>
+                <option value="sb"  class="city">Sao Jose do Belmonte</option>
+                <option value="bjm" class="city">Bom Jardim da Mata</option>
+                <option value="par" class="city">Parnamirim</option>
+                <option value="tri" class="city" selected>Trindade</option>
+                <option value="ser" class="city">Serrita</option>
+                <option value="pe"  class="city">Recife</option>
+                <option value="ba"  class="city">Salvador</option>
+                <option value="pi"  class="city">Terezina</option>
+                <option value="mg"  class="city">Belo Horizonte</option>
+
+            </select>
+        </label><br>
+        <label for="estado">Estado onde moro:
+            <select id="estado">
+                <option value="pe" class="estados">Pernambuco</option>
+                <option value="ba" class="estados">Bahia</option>
+                <option value="ma" class="estados">Maranhao</option>
+                <option value="se"  class="estados">Sergipe</option>
+                <option value="ce" class="estados">Ceará</option>
+                <option value="pi" class="estados">Piauí</option>
+                <option value="rn" class="estados">Rio Grando do Norte</option>
+                <option value="pa" class="estados">Paraiba</option>
+                <option value="to"  class="estados">Tocantins</option>
+                <!-- <option value="ba"  class="city">Salvador</option>
+                <option value="pi"  class="city">Terezina</option>
+                <option value="mg"  class="city">Belo Horizonte</option> -->
+
+            </select>
+            <br>
+            <label for="minhaFoto"><input type="file" name="foto" id="minhaFoto"></label><br>
+            </label><br>
+
+            <label for="comida-1">
+                <input type="radio" name="comida-favorita" id="comida-1" checked>Comida-1
+            </label>
+            <br>
+            <button type="submit">Send</button>
+    </form>
+   
+</body>
+</html>
+
+<!-- 
+     <option value="tri">Trindade</option>
+                
+-->
